@@ -1,0 +1,15 @@
+node_modules
+dist
+.env
+*.log
+
+# Build & TypeScript caches
+*.tsbuildinfo
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Raw large dataset archives (>100MB violates GitHub limits)
+data/
+*.zip
